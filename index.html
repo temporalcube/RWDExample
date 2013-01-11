@@ -1,0 +1,303 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!-- Consider adding a manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+    
+<head>
+    <!-- ========================= 
+            Basic Page Meta Info
+         ========================= -->  
+    <!-- Mobile viewport optimized: h5bp.com/viewport and github.com/h5bp/html5-boilerplate/issues/824-->    
+    <meta name="viewport" content="width=device-width;" />
+    <!-- Prevent iOS from mis-recognizing numbers as telephone numbers among other things raizlabs.com/blog/202/iphone-telephone-hyperlinks -->
+    <meta name="format-detection" content="telephone=no" />
+    <meta charset="utf-8" />
+    <!-- Turn off IE6 ImageToolbar h5bp.com/docs/head-Tips/#suppress-ie6-image-toolbar -->
+    <meta http-equiv="imagetoolbar" content="false" />
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="Description" content="" />
+    <meta name="Keywords" content="" />
+    <title>Matt Henry - Web Designer and Educator - Hello!</title>
+    
+    <!-- ========================= 
+            Bring in Basic Page Style and Assets 
+         ========================= -->          
+    <link rel="stylesheet" type="text/css" href="lib/css/style.css" />
+    <link rel="shortcut icon" href="favicon.png">
+    
+    <!-- iPhone and Android Icons info at mathiasbynens.be/notes/touch-icons -->
+    <!-- For iPhone 4 with high-resolution Retina display: dimensions 114x114-->
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="apple-touch-icon-114x114-precomposed.png">
+    <!-- For first-generation iPad: dimensions 72x72 -->
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="apple-touch-icon-72x72-precomposed.png">
+    <!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: dimensions: 57x57-->
+    <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png">
+    
+    <link rel="alternate" type="application/rss+xml" href="/rss">   
+    <link type="text/plain" rel="author" href="humans.txt">
+    
+    <!-- ========================= 
+            HTML5 Shiv for IE < 9
+         ========================= -->
+    <!--[if IE]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    
+      <!-- All JavaScript at the bottom, except this Modernizr build.
+       Modernizr enables HTML5 elements & feature detects for optimal performance.
+       Create your own custom Modernizr build: www.modernizr.com/download/ -->
+    <script src="lib/js/libs/modernizr-2.5.2.min.js"></script>  
+</head>
+
+<body class="homepage">
+    
+    <!-- =========================
+            Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.  chromium.org/developers/how-tos/chrome-frame-getting-started 
+        ========================== -->
+    <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+    
+    <!-- ========================= 
+            Table of Contents Section 
+         ========================= -->              
+<section class="tableofcontents">
+    <header class="main">
+       <!-- <div class="logo">
+            <a href="EXAMPLE.COM" title="Homepage of EXAMPLE.COM"><img src="EXAMPLE" width="325" height="128" alt="EXAMPLE Logo" /></a>
+        </div>
+        <p class="companyname"><a title="home" href="/">EXAMPLE.COM</a></p>-->
+        <ul class="navigation navcenter">
+                <li class="centerlink"><a class="welcomenotelink" href="#welcomenote" title="Welcome to Matt's Responsive Web Design Example Page">HOME</a></li>
+        </ul>
+        <nav>
+            <ul class="navigation navleft">
+                <li><a class="mybackgroundlink" href="#mybackground" title="A Bit About Matt">ABOUT</a></li>
+                <li><a class="aboutthissitelink" href="#aboutthissite" title="The Process of Building this Site">PROCESS</a></li> 
+            </ul>
+            <ul class="navigation navright">
+                <li><a class="mysiteslink" href="#mysites" title="Matt's Online Sites">SITES</a></li>
+                <li><a class="meonlinelink" href="#meonline" title="Matt's Social Presence">SOCIAL</a></li>
+            </ul>
+        </nav>
+    </header>
+</section>
+
+    <!-- ========================= 
+            Main Content Section 
+         ========================= -->      
+<section role="main" class="main" name="maincontent">   
+    
+    <!-- ========================= 
+        Primary Content Section 
+     ========================= -->  
+    <section class="primarycontent">
+        <article class="welcomenote" id="welcomenote">
+            <header name="homecontent01" id="homecontent01" class="homecontentarea">
+                <h1>HELLO! :-)</a></h1>
+                <h2>Who &amp; Why?</h2>  
+            </header>
+            <h3>Who am I? Why did I build this page?</h3>
+            <p>My name is Matt Henry, I am a web designer among other things.</p>
+            <p>Of the many passions in my life, design is one of my major ones. I have been designing on and off the web since some time in the 90s, so it's been a while.</p>
+            <p>In that time, many things have changed, and are still changing. Of those things, one major area ican be found in how websites are accessed. Previously most websites were reached through desktop and laptop computers, with screen sizes fairly predictable and large. Along with that, most connections to the web grew to be rather speedy. In recent times, however, things have changed, people access the web through a multitude of devices, from cell phones, to tablets, to computers and tvs. Connection speeds vary greatly, and screen sizes have become to numerous to keep track of.</p>
+            <p>So, in an effort to adapt to the changing landscape of web devices, design and coding is changing too. Instead of creating sites for certain devices, it's time to create sites that can adapt to all devices. That's where this site comes in. It is here to provide a quick and dirty introduction to the concept of Responsive Web Design (RWD) through an operable web page. For now, the content in the site is just some basic resume-type material, but the core concepts of RWD are applicable to a wide variety of content categories.</p>
+            
+            <p>If you have any questions, just get in touch <span class="websiteemail">
+                matt+rwdexample -AT- matthenry.us ... (Enable JavaScript to have an active link to email )
+                </span>.</p>
+            <footer>
+                <p><a class="mybackgroundlink" href="#mybackground" title="Go to the next section">Learn what's keeping me busy &amp; what my background is&hellip;</a></p>
+            </footer> 
+        </article>
+        <article class="mybackground" id="mybackground">
+            <header name="homecontent02" id="homecontent02" class="homecontentarea">
+                <h2>What's keeping me busy? What's my background?</h2>  
+            </header>
+            <!--If you're reading my code, hello. I started writing, but honestly, I don't like writing about myself, so I ended up doing something different. :) <p>Simply put, my background is a bit diverse. I have a bachelor's degree in Business-Marketing, a M.F.A in Media Arts, experience in video production, music production, web design, and teaching in higher education among many other things.</p>-->
+            <section class="busyrightnow">
+                <h3>I am keeping myself busy right now by:</h3>
+                <ul>
+                    <li>Building some super-secret, but super fun web projects. <a href="https://lh4.googleusercontent.com/-R-EuuB0MzAE/TyYad9OS_xI/AAAAAAAAALA/5ue-SdiscW8/s508/csteaser.jpg" title="Mr. Blurry Cam sneak peek of a project">Here's a very blurry sneak peek. :)</a></li>
+                    <li>Making small things to share with others, like <a href="https://plus.google.com/u/0/104176182231940890739/posts/gDS16dx5B21" title="Valentine's Day Wallpaper">this love-themed wallpaper</a> and <a href="http://www.matthenry.us/freebies/dragon2012.html" title="Year of the Dragon Wallpapers">this set of Year of the Dragon wallpapers</a>.</li>
+                    <li>Learning all sorts of great things.</li>
+                </ul>
+            </section>
+            <section class="industryexperience">
+                <h3>I've worked on some stuff for people as a:</h3>
+                <ul>
+                    <li>Consultant at Publicis West - Seattle with clients like T-Mobile &amp; Washington Lottery</li>
+                    <li>Consultant at Smith-Harmon working on stuff for Amazon.com, Alaska Airlines, Cord Blood Registry</li>
+                    <li>Web Specialist for the University of Nevada, Las Vegas - Marketing &amp; Public Relations</li>
+                    <li>Web Designer &amp; Developer for the University of Montana - School of Business Administration</li>
+                    <li>Freelance designer for a range of people and organizations</li>
+                </ul>
+            </section>
+            <section class="teachingexperience">
+                <h3>I've taught a few places:</h3>
+                <ul>
+                    <li>The Art Insitutute of Las Vegas</li>
+                    <li>The International Academy of Design &amp; Technology</li>
+                    <li>Nevada State College</li>
+                </ul>
+                <h4>At these places I taught a lot of things including:</h4>
+                <ul>
+                    <li>Graphic and Web Design</li>
+                    <li>Typography</li>
+                    <li>3D Fundamentals &amp; Animation</li>
+                    <li>Branding &amp; Brand Identity</li>
+                    <li>Sound Design</li>
+                    <li>Motion Design</li>
+                    <li>User-Centered Design</li>
+                    <li>xhtml, HTML 4.01, CSS 2.01, JavaScript, AJAX, ActionScript 2, and ActionScript 3</li>
+                    <li>Being creative and productive with all sorts of Adobe applications</li>
+                </ul>
+            </section>
+            <section class="skills">
+                <h3>I have a few skills:</h3>
+                <ul>
+                    <li>Strong research, organizational, &amp; analytical abilities</li>
+                    <li>Highly self-driven with strong ability to work both independently and collaboratively</li>
+                    <li>Versed in principles of user-centered design concepts and practices</li>
+                    <li>Excellent grasp of current and emerging design and coding principles, best practices and trends</li>
+                    <li>Advanced knowledge of the Adobe Master Collection, Microsoft Office, MAC OSX, Windows and
+numerous other software packages</li>
+                    <li>Skilled and versed in multiple design and media fields, including motion design, graphic design, web
+design, audio production, and video production</li>
+                    <li>High proficiency in xhtml, HTML5, CSS3</li>
+                    <li>Familiar with jQuery, JavaScript, PHP and the use of platforms such as Wordpress</li>
+                    <li>Active learner, currently focusing on:
+                        <ul>
+                            <li>SASS</li>
+                            <li>Git &amp; Github</li>
+                            <li>Aptana Studio</li>
+                            <li>Sublime Text 2</li>
+                            <li>More jQuery &amp; more JavaScript</li>
+                            <li>and much more…</li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+            <section class="education">
+                <h3>I earned a couple of degrees:</h3>
+                <ul>
+                    <li>Master of Fine Arts in Media Arts from The University of Montana</li>
+                    <li>Bachelor of Science in Business Administration - Marketing from The University of Montana</li>
+                </ul>
+            </section>
+            <footer>
+                <p><a class="welcomenotelink" href="#welcomenote" title="Go to the previous section">Go back to Home&hellip;</a></p>
+                <p><a class="aboutthissitelink" href="#aboutthissite" title="Go to the next section">Learn how I built this site&hellip;</a></p>
+            </footer> 
+        </article>        
+        <article class="aboutthissite" id="aboutthissite">
+            <header name="homecontent03" id="homecontent03" class="homecontentarea">
+                <h2>How did I build this page?</h2>  
+            </header>
+<p>The first thing I did when I began building this site was to come up with the basic purpose and primary goals for the site. These goals boiled down to basically providing a brief overview of myself, and allowing for visitors to get a look into my process.
+</p>
+<p>Following that, I started organizing and creating a draft of the site’s content so that I would know how to organize and structure the page. This particular part of the process is key since good design inherently needs to be based upon the content, as good design is about communication, not just being pretty. 
+</p>
+<p>After creating the draft content, organizing it, and the site’s structure, I coded the basic HTML structure without any styling markup. I usually do this first as I want to ensure that even people using alternative browsers or older machines can access the content even if they don’t get all the fancy functionality. Also, to help provide a foundation to the site, I utilized a slightly customized version of the HTML5 Boilerplate.
+</p>
+<p>Diverting a bit from the procedure I'd undertake normally with a new design, I didn't step into Illustrator to build out the basic site look. Instead, I mainly just envsioned the site's look and structure in my head and went on building in the my text editor. The reason I was able to divert from my normal process in this instance was due to the overall simplicity of the site, and also since I had a rough breakdown of the structure from other site builds and my actual resume.
+</p>
+<p>After creating a mockup in Illustrator, I went back to the code and began styling the page using Sass. The initial styling was done to create a fluid base that would look acceptable, though not optimal on any size screen. Once I completed a basic page look, I added in some jQuery functionality to liven up the single page design a little. At the same time, I also added in some simple media queries to optimize the content for different screen resolutions. Note, with the media queries, I don’t base my design changes around device screen resolution as much as to resolution points where the content dictates a layout change. This approach helps keep the design from failing on devices with resolutions not yet known.
+</p>
+<p>Once the page construction was completed, I added in and refined the content further, changed the Sass configuration to output minified CSS, and then uploaded the site to a new url and hosting space.
+</p>
+<p>As I mentioned there are some points where I stepped out of my normal workflow to take advantage of the personal nature of this project. Also, if this were a non-personal project, there are some things I would do to further refine the design, content presentation, and the code, though hopefully, this overview gives a bit of insight into my process.
+</p>
+            <footer>
+                <p><a class="mybackgroundlink" href="#mybackground" title="Go to the previous section">Go back a to my background&hellip;</a></p>
+                <p><a class="mysiteslink" href="#mysites" title="Go to the next section">See some links to sites I've built&hellip;</a></p>
+            </footer> 
+        </article>
+        <article class="mysites" id="mysites">
+            <header name="homecontent04" id="homecontent04" class="homecontentarea">
+                <h2>What are some of my sites?</h2>  
+            </header>
+                <ul>
+                    <li><a href="http://www.matthenry.us" title="One of Matt's websites">MattHenry.us</a></li>
+                    <li><a href="https://twitter.com/#!/temporalcube" title="Matt on Twitter">Synapteknologies.com</a></li>
+                    <li><a href="http://pinterest.com/temporalcube/" title="Matt's Pins on Pinterest">WoDeVision.com</a></li>
+                </ul>
+            <footer>
+                <p><a class="aboutthissitelink" href="#aboutthissite" title="Go to the previous section">Go back to see how I built this site&hellip;</a></p>
+                <p><a class="meonlinelink" href="#meonline" title="Go to the next section">See where you can find me online&hellip;</a></p>
+            </footer> 
+        </article>
+        <article class="meonline" id="meonline">
+            <header name="homecontent05" id="homecontent05" class="homecontentarea">
+                <h2>Where can you find me online?</h2>
+                <p><small>I'm actually a lot of places, so here's just a sample</small></p>
+            </header>
+                <ul>
+                    <li><a href="https://twitter.com/#!/temporalcube" title="Matt on Twitter">Twitter</a></li>
+                    <li><a href="https://plus.google.com/u/0/104176182231940890739" title="Matt's Google+ Page">Google+</a></li>                 
+                    <li><a href="http://delicious.com/temporalcube" title="Matt's Delicious Bookmarks">Delicious</a></li>
+                    <li><a href="http://soundcloud.com/temporalcube" title="Matt's Musical Tastes on SoundCloud">SoundCloud</a></li>
+                    <li><a href="http://www.COLOURlovers.com/lover/temporalcube" title="Matt's COLOURlovers page">COLOURlovers</a></li>
+                    <li><a href="http://pinterest.com/temporalcube/" title="Matt's Pins on Pinterest">Pinterest</a></li>
+                </ul>
+            <footer>
+                <p><a class="mysiteslink" href="#mysites" title="Go to the previous section">Go back to see some of the sites I've built&hellip;</a></p>
+            </footer> 
+        </article>
+    </section>      
+</section>
+
+    <!-- ========================= 
+            Primary Footer Section 
+         ========================= -->  
+    <footer class="bodyfooter">
+        <ul class="footernav">
+                <li><a class="mybackgroundlink" href="#mybackground" title="A Bit About Matt">ABOUT</a></li>
+                <li><a class="aboutthissitelink" href="#aboutthissite" title="The Process of Building this Site">PROCESS</a></li> 
+                <li><a class="welcomenotelink" href="#welcomenote" title="Welcome to Matt's Responsive Web Design Example Page">HOME</a></li>
+                <li><a class="mysiteslink" href="#mysites" title="Matt's Online Sites">SITES</a></li>
+                <li><a class="meonlinelink" href="#meonline" title="Matt's Social Presence">SOCIAL</a></li>
+        </ul>
+         <p class="vcard">
+                <a class="fn org url" title="Contact Information" href="http://www.matthenry.us/">Matt Henry</a>
+                <span class="adr">
+                    <span class="locality">New York</span>, 
+                    <abbr class="region" title="New York">NY</abbr>,
+                    <span class="country">USA</span> 
+                </span>
+                <span class="tel">
+                    <span class="type">Work</span>: <span class="value">+1-702-997-3608</span>
+                </span>
+                <span class="websiteemail">
+                Enable JavaScript to have link to email matt-rwdexample-AT- matthenry.us...
+                </span>
+                <span class="sitecopyright">Copyright&copy; Matt Henry</span>
+          </p>
+    </footer>
+    
+    <!-- ========================= 
+        Javascript Section 
+     ========================= -->  
+
+          <!-- JavaScript should go at the bottom for fast page loading -->
+        
+          <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+          <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+          <script>window.jQuery || document.write('<script src="lib/js/libs/jquery-1.7.1.min.js"><\/script>')</script>
+        
+          <script src="lib/js/plugins-ck.js"></script>
+          <script src="lib/js/script-ck.js"></script>
+          <!-- end scripts -->
+        
+          <!-- Asynchronous Google Analytics snippet. Change UA-XXXXX-X to be your site's ID.
+               mathiasbynens.be/notes/async-analytics-snippet -->
+          <script>
+            var _gaq=[['_setAccount','UA-1215588-5'],['_trackPageview']];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+          </script>
+
+</body>
+</html>

@@ -1,0 +1,315 @@
+
+$xxxxlargetext : 4em;  //57.6  normally 3em, special adjustment here
+$xxxlargetext : 2.25em; //43.2
+$xxlargetext : 1.5em; //28.8
+$xlargetext : 1.3125em; //25.2
+$largetext : 1.125em; //22.4
+$base-font-size : 1em;  //22.4
+$smalltext : .875em; //16.8
+$xsmalltext : .75em; //14.4
+$xxsmalltext : .6875em; //13.2
+
+
+
+
+
+
+
+$base-line-height : 1.35;
+
+@font-face {
+    font-family: 'BemioRegular';
+    src: url('../fonts/bemio/bemio-webfont.eot');
+    src: url('../fonts/bemio/bemio-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bemio/bemio-webfont.woff') format('woff'),
+         url('../fonts/bemio/bemio-webfont.ttf') format('truetype'),
+         url('../fonts/bemio/bemio-webfont.svg#BemioRegular') format('svg');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+/*
+@font-face {
+    font-family: 'BemioItalicRegular';
+    src: url('../fonts/bemio/bemio_italic-webfont.eot');
+    src: url('../fonts/bemio/bemio_italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bemio/bemio_italic-webfont.woff') format('woff'),
+         url('../fonts/bemio/bemio_italic-webfont.ttf') format('truetype'),
+         url('../fonts/bemio/bemio_italic-webfont.svg#BemioItalicRegular') format('svg');
+    font-weight: bold;
+    font-style: italic;
+
+}
+*/
+
+@font-face {
+    font-family: 'CrimsonRoman';
+    src: url('../fonts/crimson/Crimson-Roman-webfont.eot');
+    src: url('../fonts/crimson/Crimson-Roman-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/crimson/Crimson-Roman-webfont.woff') format('woff'),
+         url('../fonts/crimson/Crimson-Roman-webfont.ttf') format('truetype'),
+         url('../fonts/crimson/Crimson-Roman-webfont.svg#CrimsonRoman') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/*
+@font-face {
+    font-family: 'CrimsonBold';
+    src: url('../fonts/crimson/Crimson-Bold-webfont.eot');
+    src: url('../fonts/crimson/Crimson-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/crimson/Crimson-Bold-webfont.woff') format('woff'),
+         url('../fonts/crimson/Crimson-Bold-webfont.ttf') format('truetype'),
+         url('../fonts/crimson/Crimson-Bold-webfont.svg#CrimsonBold') format('svg');
+    font-weight: bolder;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'CrimsonBoldItalic';
+    src: url('../fonts/crimson/Crimson-BoldItalic-webfont.eot');
+    src: url('../fonts/crimson/Crimson-BoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/crimson/Crimson-BoldItalic-webfont.woff') format('woff'),
+         url('../fonts/crimson/Crimson-BoldItalic-webfont.ttf') format('truetype'),
+         url('../fonts/crimson/Crimson-BoldItalic-webfont.svg#CrimsonBoldItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'CrimsonItalic';
+    src: url('../fonts/crimson/Crimson-Italic-webfont.eot');
+    src: url('../fonts/crimson/Crimson-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/crimson/Crimson-Italic-webfont.woff') format('woff'),
+         url('../fonts/crimson/Crimson-Italic-webfont.ttf') format('truetype'),
+         url('../fonts/crimson/Crimson-Italic-webfont.svg#CrimsonItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'CrimsonSemibold';
+    src: url('../fonts/crimson/Crimson-Semibold-webfont.eot');
+    src: url('../fonts/crimson/Crimson-Semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/crimson/Crimson-Semibold-webfont.woff') format('woff'),
+         url('../fonts/crimson/Crimson-Semibold-webfont.ttf') format('truetype'),
+         url('../fonts/crimson/Crimson-Semibold-webfont.svg#CrimsonSemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'CrimsonSemiboldItalic';
+    src: url('../fonts/crimson/Crimson-SemiboldItalic-webfont.eot');
+    src: url('../fonts/crimson/Crimson-SemiboldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/crimson/Crimson-SemiboldItalic-webfont.woff') format('woff'),
+         url('../fonts/crimson/Crimson-SemiboldItalic-webfont.ttf') format('truetype'),
+         url('../fonts/crimson/Crimson-SemiboldItalic-webfont.svg#CrimsonSemiboldItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}*/
+::-moz-selection { background: #f82955; color: #ffffff; text-shadow: none; }
+    ::selection { background: #f82955; color: #ffffff; text-shadow: none; }
+
+.homepage {
+    background-color: $main-color;
+    background-image: url("../img/greybkg.jpg");
+    background-position: 0 0;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    color: $main-color02;
+    font-family: 'CrimsonRoman', 'Georgia', 'Times New Roman', serif;
+    font-size-adjust: .25;
+    font-weight: normal;
+      text-shadow: 0 1px 1px #222222;
+     a {
+      color: $main-color03;
+      text-decoration: none;
+      &:link, &:visited {
+        text-decoration: none;
+        color: $main-color03;
+      }
+      &:focus, &:hover{
+        color: lighten(saturate($main-color03, 40%), 35%);
+      }
+      &:active{
+        color: darken(saturate($main-color03, 40%), 10%);
+      }
+    }
+    .tableofcontents {
+      //background-color: #70ADFF;
+     // background-image: url("../img/bluebkg.jpg");
+      //background-position: 0 -20px;
+      //background-repeat: repeat-x;
+      font-family:'BemioRegular', 'Myriad Pro', 'Helvetica', Arial, sans-serif;
+      font-size-adjust: none;
+      text-shadow: 0 1px 1px $main-color03;
+     a {
+          
+          color: $main-colornav;
+          &:link, &:visited {
+            color: $main-colornav;
+          }
+          &:focus, &:hover{
+            color: lighten(saturate($main-color04, 40%), 30%);
+          }
+          &:active{
+            color: darken(saturate($main-color04, 40%), 10%);
+          }
+        }
+      }
+      .centerlink a {
+
+          color: $main-color05;
+          &:link, &:visited{
+          color: $main-color05;
+          }
+          &:focus, &:hover{
+            color: lighten(saturate($main-color05, 40%), 20%);
+          }
+          &:active{
+            color: darken(saturate($main-color05, 40%), 10%);
+          }
+        }
+    h1, h2, h3, h4, h5 {
+      //darken(desaturate($main-color, 20%), 60%);
+      font-family: 'BemioRegular', 'Myriad Pro', 'Helvetica', Arial, sans-serif;
+      font-size-adjust: none;
+      //text-shadow: 0 1px 1px darken($main-color04, 15%);
+        a, .centerlink a {
+          // text-shadow: 0 1px 1px #ccc;
+          color: $main-color05;
+          &:link, &:visited{
+          color: $main-color05;
+          }
+          &:focus, &:hover{
+            color: lighten(saturate($main-color05, 40%), 20%);
+          }
+          &:active{
+            color: darken(saturate($main-color05, 40%), 10%);
+          }
+        }
+}
+}
+
+
+
+
+h2, h3, h4, h5 {
+      color: $main-color04;
+    }
+
+h1 {
+      color: #ffffff;
+}
+
+h1 {
+  font-size: $xxxxlargetext;
+  line-height: 1;
+  margin: 0 0 .8em 0;
+}
+
+h2 {
+  font-size: $xxxlargetext;
+  line-height: 1;
+  margin: 0 0 .25em 0;
+}
+
+h3 {
+  font-size: $xxlargetext;
+  //margin:
+  margin-bottom: 0; 
+}
+
+h4 {
+  font-size: $largetext;
+    margin-bottom: 0; 
+}
+
+h5 {
+  font-size: $largetext;
+    margin-bottom: 0; 
+}
+
+
+/*
+.readmore {
+  font-size: $base-font-size;
+  text-align: right;
+      a {  
+      color: $secondary-bodylinkscolor;
+    &:link{
+      color: $secondary-bodylinkscolor;    
+      }
+    &:visited{
+      color: $secondary-bodylinksvisitedcolor;
+    }
+    &:focus, &:hover{
+      color: $secondary-bodylinkshovercolor;
+    }
+    &:active{
+      color: $secondary-bodylinksactivecolor;
+    }
+  }
+}
+*/
+
+
+.primarycontent {
+  //font-family: Georgia, serif;
+       > article > footer {
+          font-size: $smalltext;
+        }
+      > article header 
+            ~ p:first-of-type {
+                  text-indent: 0; 
+                  &:first-line {
+                  font-size: $largetext;
+                  font-variant: small-caps;
+                  margin-bottom: 0;
+                  line-height: 1;
+                  }
+                  &:first-letter {
+                      /* background: $selectiontextcolor;
+                      border: thin solid $header-bordercolor;
+                      @include border-radius(6px);
+                      float: left;
+                      font-size: 2.3em;
+                      padding: .25em;
+                      margin-right: -.3em;
+                      margin-left: .5em;*/
+                     margin-top: $xxlargetext;
+                     font-size: $xxlargetext;
+                     //font-weight: bold;
+                  }
+               }
+}
+
+
+
+
+.bodyfooter {
+  font-size: $smalltext;
+  text-align: center;
+  h1, h2, h3, h4, h5 {
+    font-size: $xlargetext;
+    border-bottom: solid thin;
+  }
+  .vcard {
+    margin-top: .5em;
+    font-size: $smalltext;
+  }
+}
+.tel, .adr, .websiteemail, .sitecopyright {
+    margin-left: 2em;
+}
+
+ins { background: lighten(#333333, 20%); color: #ffffff; text-decoration: none; }
+
+mark { background: lighten(#444444, 40%); color: #ffffff; font-style: italic; font-weight: bold; }
+
